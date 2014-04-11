@@ -1,7 +1,10 @@
 import java.lang.Number;
+import redhat.brms6workshop.labs.Driver;
+import redhat.brms6workshop.labs.Quote;
 
 rule "Eligibility Rule 2"
 	dialect "mvel"
 	when
+		Driver( city == "Dallas" )
 	then
 end
