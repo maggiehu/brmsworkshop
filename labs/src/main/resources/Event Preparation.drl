@@ -4,3 +4,8 @@ declare ApplicationEvent
     @role( event )
     
 end
+
+declare QuoteEvent
+    @role( event )
+    
+end
