@@ -4,12 +4,6 @@
   <globals/>
   <fixtures>
     <fact-data>
-      <type>ApplicationEvent</type>
-      <fieldData/>
-      <name>applicationEvent</name>
-      <isModify>false</isModify>
-    </fact-data>
-    <fact-data>
       <type>QuoteEvent</type>
       <fieldData>
         <field-data>
