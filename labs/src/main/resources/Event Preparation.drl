@@ -1,5 +1,9 @@
 package redhat.brms6workshop;
 
+import redhat.brms6workshop.labs.QuoteEvent;
+import redhat.brms6workshop.labs.Notification;
+import redhat.brms6workshop.labs.ApplicationEvent;
+
 declare ApplicationEvent
     @role( event )
     @timestamp( quoteDate )
