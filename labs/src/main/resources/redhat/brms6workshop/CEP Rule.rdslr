@@ -10,5 +10,6 @@ rule "CEP Rule"
 	when
 		>QuoteEvent( ) from entry-point "QuoteEventStream"
 		>not (Application( )) 
+		>Application( ) from entry-point "null"
 	then
 end
