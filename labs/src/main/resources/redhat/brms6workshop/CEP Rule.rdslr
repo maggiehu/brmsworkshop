@@ -11,4 +11,7 @@ rule "CEP Rule"
 		>quoteEvent : QuoteEvent( ) from entry-point "QuoteEventStream"
 		>not (ApplicationEvent( this after [0d, 1d] quoteEvent )) 
 	then
+		>Notification fact0 = new Notification();
+		>fact0.setEmailID( "mhu@redhat.com" );
+		>insert( fact0 );
 end
