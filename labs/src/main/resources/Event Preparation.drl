@@ -2,10 +2,12 @@ package redhat.brms6workshop;
 
 declare ApplicationEvent
     @role( event )
+    @timestamp( quoteDate )
     
 end
 
 declare QuoteEvent
     @role( event )
+    @timestamp( quoteDate )
     
 end
