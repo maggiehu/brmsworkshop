@@ -1,2 +1,6 @@
 package redhat.brms6workshop;
 
+declare ApplicationEvent
+    @role( event )
+    
+end
