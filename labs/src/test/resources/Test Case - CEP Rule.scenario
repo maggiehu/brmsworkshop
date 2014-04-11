@@ -15,9 +15,7 @@
       <name>quoteEvent</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace>
-      <scenarioSimulatedDate>2014-04-11 19:00:00.0 UTC</scenarioSimulatedDate>
-    </execution-trace>
+    <execution-trace/>
   </fixtures>
   <rules>
     <string>CEP Rule</string>
