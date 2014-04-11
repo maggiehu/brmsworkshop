@@ -6,7 +6,7 @@ import redhat.brms6workshop.labs.ApplicationEvent;
 
 declare ApplicationEvent
     @role( event )
-    @timestamp( quoteDate )
+    @timestamp( applicationDate )
     
 end
 
