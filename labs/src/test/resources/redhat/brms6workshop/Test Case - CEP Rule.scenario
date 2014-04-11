@@ -1,0 +1,12 @@
+<scenario>
+  <name>Test Case - CEP Rule</name>
+  <maxRuleFirings>100000</maxRuleFirings>
+  <globals/>
+  <fixtures/>
+  <rules/>
+  <inclusive>false</inclusive>
+  <packageName>redhat.brms6workshop</packageName>
+  <imports>
+    <imports/>
+  </imports>
+</scenario>
