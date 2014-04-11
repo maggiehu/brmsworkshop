@@ -3,12 +3,12 @@ package redhat.brms6workshop;
 import java.lang.Number;
 import redhat.brms6workshop.labs.QuoteEvent;
 import redhat.brms6workshop.labs.Notification;
+import redhat.brms6workshop.labs.ApplicationEvent;
 
 rule "CEP Rule"
 	dialect "mvel"
 	when
-		>QuoteEvent( ) from entry-point "QuoteEventStream"
-		>not (Application( )) 
-		>Application( ) from entry-point "null"
+		>quoteEvent : QuoteEvent( ) from entry-point "QuoteEventStream"
+		>not (ApplicationEvent( this after [0d, 1d] quoteEvent )) 
 	then
 end
