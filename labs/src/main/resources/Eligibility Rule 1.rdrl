@@ -1,4 +1,6 @@
 import java.lang.Number;
+import redhat.brms6workshop.labs.Driver;
+import redhat.brms6workshop.labs.Quote;
 
 rule "Eligibility Rule 1"
 	dialect "mvel"
