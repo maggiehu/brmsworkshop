@@ -5,6 +5,8 @@ import redhat.brms6workshop.labs.Quote;
 rule "Eligibility Rule 1"
 	dialect "mvel"
 	when
-		Driver( )
+		Driver( age < 18 )
+		quote : Quote( )
 	then
+		quote.setEligibility( "No" );
 end
