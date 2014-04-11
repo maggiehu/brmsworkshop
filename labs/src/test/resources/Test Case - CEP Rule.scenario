@@ -8,14 +8,16 @@
       <fieldData>
         <field-data>
           <name>quoteDate</name>
-          <value>15-Apr-2014</value>
+          <value>11-Apr-2014</value>
           <nature>1</nature>
         </field-data>
       </fieldData>
       <name>quoteEvent</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <scenarioSimulatedDate>2014-04-16 19:00:00.0 UTC</scenarioSimulatedDate>
+    </execution-trace>
   </fixtures>
   <rules/>
   <inclusive>false</inclusive>
