@@ -16,11 +16,13 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <scenarioSimulatedDate>2014-04-16 19:00:00.0 UTC</scenarioSimulatedDate>
+      <scenarioSimulatedDate>2014-04-11 19:00:00.0 UTC</scenarioSimulatedDate>
     </execution-trace>
   </fixtures>
-  <rules/>
-  <inclusive>false</inclusive>
+  <rules>
+    <string>CEP Rule</string>
+  </rules>
+  <inclusive>true</inclusive>
   <packageName></packageName>
   <imports>
     <imports>
