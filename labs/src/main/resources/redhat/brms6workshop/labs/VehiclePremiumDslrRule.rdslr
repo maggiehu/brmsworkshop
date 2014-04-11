@@ -1,0 +1,9 @@
+package redhat.brms6workshop.labs;
+
+import java.lang.Number;
+
+rule "VehiclePremiumDslrRule"
+	dialect "mvel"
+	when
+	then
+end
