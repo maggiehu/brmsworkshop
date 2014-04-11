@@ -1,0 +1,9 @@
+package redhat.brms6workshop;
+
+import java.lang.Number;
+
+rule "CEP Rule"
+	dialect "mvel"
+	when
+	then
+end
