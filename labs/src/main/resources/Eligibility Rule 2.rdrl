@@ -5,6 +5,6 @@ import redhat.brms6workshop.labs.Quote;
 rule "Eligibility Rule 2"
 	dialect "mvel"
 	when
-		Driver( city == "Dallas" )
+		Driver( city == "Dallas" , zipCode == "54321" )
 	then
 end
