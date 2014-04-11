@@ -9,7 +9,7 @@ rule "CEP Rule"
 	dialect "mvel"
 	when
 		>quoteEvent : QuoteEvent( ) from entry-point "QuoteEventStream"
-		>not (ApplicationEvent( this after [1d, 2d] quoteEvent )) 
+		>not (ApplicationEvent( this after quoteEvent )) 
 	then
 		>Notification fact0 = new Notification();
 		>fact0.setEmailID( "mhu@redhat.com" );
