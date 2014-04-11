@@ -3,7 +3,6 @@ package redhat.brms6workshop;
 import java.lang.Number;
 import redhat.brms6workshop.labs.QuoteEvent;
 import redhat.brms6workshop.labs.Notification;
-import redhat.brms6workshop.labs.Application;
 
 rule "CEP Rule"
 	dialect "mvel"
