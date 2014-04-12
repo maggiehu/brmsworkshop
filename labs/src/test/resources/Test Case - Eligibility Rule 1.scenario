@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>age</name>
-          <value>18</value>
+          <value>17</value>
           <nature>1</nature>
         </field-data>
       </fieldData>
@@ -26,7 +26,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>eligibility</fieldName>
-          <expected>No</expected>
+          <expected>Yes</expected>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
