@@ -26,9 +26,9 @@
       <fieldValues>
         <expect-field>
           <fieldName>eligibility</fieldName>
-          <expected>Yes</expected>
+          <expected>No</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>quote</name>
