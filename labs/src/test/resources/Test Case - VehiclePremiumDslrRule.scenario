@@ -13,7 +13,7 @@
         </field-data>
         <field-data>
           <name>city</name>
-          <value>Dallas</value>
+          <value>Raleigh</value>
           <nature>1</nature>
         </field-data>
       </fieldData>
@@ -27,7 +27,7 @@
           <fieldName>amount</fieldName>
           <expected>500</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>Premium</name>
