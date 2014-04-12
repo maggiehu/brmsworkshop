@@ -31,7 +31,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>eligibility</fieldName>
-          <expected>No</expected>
+          <expected>Yes</expected>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
